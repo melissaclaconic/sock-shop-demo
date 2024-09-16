@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sock-shop-demo
+  annotations:
+    github.com/project-slug: melissaclaconic/sock-shop-demo
+spec:
+  type: other
+  lifecycle: unknown
+  owner: idp-dev
