@@ -2,6 +2,16 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: sock-shop-demo
+  description: A demo of the Sock Shop application.
+  tags:
+    - java
+    - spring
+    - web
+    - tdd
+  links:
+  - url: https://dashboard.example.com
+    title: My Dashboard
+    icon: dashboard
   annotations:
     github.com/project-slug: melissaclaconic/sock-shop-demo
 spec:
